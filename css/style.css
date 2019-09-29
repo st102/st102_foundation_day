@@ -1055,8 +1055,8 @@ form label {
 }
 
 .couple-half {
-  width: 50%;
-  float: left;
+  width: 100%;
+  text-align: center
 }
 @media screen and (max-width: 768px) {
   .couple-half {
@@ -1064,7 +1064,7 @@ form label {
   }
 }
 .couple-half h3 {
-  font-family: "Sacramento", Arial, serif;
+  font-family: 'Black Han Sans', sans-serif;
   color: #F14E95;
   font-size: 30px;
 }
