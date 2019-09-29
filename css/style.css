@@ -1860,6 +1860,11 @@ h1 {
   font-family: 'Yeon Sung', cursive;
 }
 
-common-margin-top {
+.common-margin-top {
   margin-top: 40px;
+}
+
+.common-margin-left-right {
+  padding-left: 20px;
+  padding-right: 20px;
 }
