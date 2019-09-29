@@ -11,7 +11,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -62,9 +62,9 @@ p {
   margin-bottom: 20px;
 }
 
-h1, h2, h3, h4, h5, h6, figure {
+h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -844,7 +844,7 @@ form label {
   margin-bottom: 0px;
   font-size: 100px;
   line-height: 1.5;
-  font-family: "Sacramento", Arial, serif;
+  font-family: "Yeon Sung", Arial, serif;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
@@ -1181,7 +1181,7 @@ form label {
   line-height: 1.5;
   font-weight: bold;
   color: #F14E95;
-  font-family: "Sacramento", Arial, serif;
+  font-family: "Black Hans", sans-serif;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
@@ -1646,7 +1646,7 @@ form label {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 30px;
@@ -1844,7 +1844,7 @@ form label {
 
 /* custom css */
 
-h2 {
+h2, h3{
   font-family: 'Black Han Sans', sans-serif;
 }
 
@@ -1854,4 +1854,12 @@ h2 {
   background-position-x: center;
   background-position-y: center;
   background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: 'Yeon Sung', cursive;
+}
+
+common-margin-top {
+  margin-top: 40px;
 }
