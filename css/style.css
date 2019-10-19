@@ -422,12 +422,22 @@ h2, h3, h4, h5, h6, figure {
 #fh5co-event .event-wrap h3 {
   font-size: 20px;
   color: #fff;
+  display: block;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#fh5co-counter .event-wrap h2,
+#fh5co-event .event-wrap h2 {
+  font-size: 30px;
+  color: #fff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   display: block;
   padding-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
 #fh5co-counter .event-wrap p, #fh5co-counter .event-wrap span,
 #fh5co-event .event-wrap p,
 #fh5co-event .event-wrap span {
@@ -674,7 +684,7 @@ h2, h3, h4, h5, h6, figure {
   width: 100%;
   display: block;
 }
-#fh5co-gallery-list li a:before {
+#fh5co-gallery-list li:before {
   position: absolute;
   top: 0;
   left: 0;
@@ -691,10 +701,10 @@ h2, h3, h4, h5, h6, figure {
   border-radius: 7px;
   background: rgba(0, 0, 0, 0.2);
 }
-#fh5co-gallery-list li a:hover:before {
+#fh5co-gallery-list li:hover:before {
   background: rgba(0, 0, 0, 0.5);
 }
-#fh5co-gallery-list li a .case-studies-summary {
+#fh5co-gallery-list li .case-studies-summary {
   width: auto;
   bottom: 2em;
   left: 2em;
@@ -703,24 +713,24 @@ h2, h3, h4, h5, h6, figure {
   z-index: 100;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li a .case-studies-summary {
+  #fh5co-gallery-list li .case-studies-summary {
     bottom: 1em;
     left: 1em;
     right: 1em;
   }
 }
-#fh5co-gallery-list li a .case-studies-summary span {
+#fh5co-gallery-list li .case-studies-summary span {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.7);
 }
-#fh5co-gallery-list li a .case-studies-summary h2 {
+#fh5co-gallery-list li .case-studies-summary h2 {
   color: #fff;
   margin-bottom: 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li a .case-studies-summary h2 {
+  #fh5co-gallery-list li .case-studies-summary h2 {
     font-size: 20px;
   }
 }
@@ -1137,7 +1147,6 @@ form label {
   }
   .couple-half .desc-bride {
     padding-left: 0;
-    text-align: center;
   }
 }
 
@@ -1192,10 +1201,9 @@ form label {
 .fh5co-heading h2 {
   font-size: 60px;
   margin-bottom: 10px;
-  line-height: 1.5;
-  font-weight: bold;
+  line-height: 1.5; 
   color: #f9bb2d;
-  font-family: "Black Hans", sans-serif;
+  font-family: "Black Han Sans", sans-serif;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
@@ -1885,4 +1893,8 @@ h1 {
 
 .common-font-size {
   font-size: 20px;
+}
+
+.common-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
