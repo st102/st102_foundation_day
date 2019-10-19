@@ -1867,7 +1867,14 @@ form label {
 /* custom css */
 
 h2, h3{
-  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Sunflower', sans-serif;
+}
+p {
+  font-family: 'Sunflower', sans-serif;
+}
+
+li {
+  font-family: 'Sunflower', sans-serif;
 }
 
 .background-settings {
