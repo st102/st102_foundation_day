@@ -126,8 +126,8 @@
           year: 0,
           month: 0,
           day: 0,
-          hours: 0,
-          minutes: 0,
+          hours: 3,
+          minutes: 60,
           seconds: 0,
           words: {
             days: "일",
